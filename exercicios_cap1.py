@@ -22,3 +22,26 @@ milhas = round(km * 0.62137, 2)
 
 #Resposta final
 print(f'Há {milhas} milhas em {km} km')
+
+#--/--/--/--
+
+#Enunciado: 3. Se você correr 10 quilômetros em 42 minutos e 42 segundos, qual é o seu passo médio? Qual é a sua velocidade média em milhas por hora?
+
+#Variáveis
+km = 10
+segundos = 2562
+
+#Cálculos de conversão de km para milhas
+milhas = round(km * 0.62137, 2)
+
+#Cálculos de conversão de segundos para minutos e minutos para horas
+minutos = segundos / 60
+horas = minutos / 60
+
+#Cálculo de velocidade média utilizando os valores que obtivemos
+vm = round(milhas / horas, 2)
+
+#Resposta final
+print(f'Se você correr {km} km em {minutos} minutos a sua velocidade média é {vm} milhas por horas')
+
+#--/--/--/--
